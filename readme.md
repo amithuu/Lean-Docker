@@ -221,4 +221,9 @@ container: contains the image[postgres, redis [like:libraries]], env configurati
 # the indentation of service name should be in same indentation. 
 
 ## to run the docker file we run
-    * docker-compose -f mongo.yaml   [-f represent file_name]
+    * docker-compose -f mongo.yaml up  [-f represent file_name]
+        : this will cerate the docker network automatically and start the containers.
+    * docker-compose -f mongo.yaml down  
+        : this will delete the docker network automatically and stops the containers.
+    
+    
