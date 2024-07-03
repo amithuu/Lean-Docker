@@ -219,3 +219,6 @@ container: contains the image[postgres, redis [like:libraries]], env configurati
                  - ME_CONFIG_MONGODB_SERVER=mongodb
 
 # the indentation of service name should be in same indentation. 
+
+## to run the docker file we run
+    * docker-compose -f mongo.yaml   [-f represent file_name]
