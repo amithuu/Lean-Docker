@@ -159,7 +159,7 @@ container: contains the image[postgres, redis [like:libraries]], env configurati
         -e ME_CONFIG_MONGODB_ADMINPASSWORD=password \ [mongo_db password]
         --net mongo-network \
         --name mongo-express \
-        -e ME_CONFIG_MONGODB_SERVER=mongodb \ [mongo_db server name]
+        -e ME_CONFIG_MONGODB_SERVER=mongodb \ [mongo_db container name]
         mongo-express
 
 # commands 
